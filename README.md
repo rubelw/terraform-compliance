@@ -1,5 +1,6 @@
 Terraform Compliance
-==================
+====================
+
 Features
 ========
 Terraform compliance tool will evaluate your tf.state file against a repository of rules.
