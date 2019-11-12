@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: terraform-compliance
+Version: 0.0.19
+Summary: Test compliance of a terraform project
+Home-page: https://github.com/rubelw/terraform-compliance
+Author: Will Rubel
+Author-email: willrubel@gmail.com
+License: UNKNOWN
+Description: Terraform Compliance
+        ==================
+        Features
+        ========
+        Terraform compliance tool will evaluate your tf.state file against a repository of rules.
+        
+        Installation
+        ============
+        terraform-compliance is on PyPI so all you need is:
+        
+        .. code:: console
+        
+           $ pip install terraform-compliance
+        
+        
+        
+        Example
+        =======
+        Getting help
+        
+        .. code:: console
+        
+           $ tfcomply validate --help
+           Usage: tfcomply validate [OPTIONS]
+        
+           primary function for evaluating a tf.state file :return:
+        
+            Options:
+              -i, --ini TEXT  INI file with needed information  [required]
+              -v, --version   Print version and exit
+              --debug         Turn on debugging
+              --help          Show this message and exit.
+        
+        
+        
+        .. code:: console
+        
+           tfcomply validate -i tf.state
+        
+        Options
+        
+            * xxx
+        
+        
+Keywords: terraform,localstack,compliance,testing,tests
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
