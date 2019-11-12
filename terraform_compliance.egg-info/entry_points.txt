@@ -1,4 +1,0 @@
-
-        [console_scripts]
-        tfcomply=terraform_compliance.command:cli
-    

@@ -1,9 +1,0 @@
-action: cov-report, msg: getenv
-cwd: /Users/rubelw/projects/wills-github/terraform-compliance/.tox
-cmd: /Users/rubelw/virtualenvs/terraformtesting/bin/python3 -m virtualenv --no-download --python /Users/rubelw/virtualenvs/terraformtesting/bin/python3 cov-report
-Already using interpreter /Users/rubelw/virtualenvs/terraformtesting/bin/python3
-Using real prefix '/usr/local/opt/pyenv/versions/3.6.0'
-New python executable in /Users/rubelw/projects/wills-github/terraform-compliance/.tox/cov-report/bin/python3
-Also creating executable in /Users/rubelw/projects/wills-github/terraform-compliance/.tox/cov-report/bin/python
-Installing setuptools, pip, wheel...
-done.

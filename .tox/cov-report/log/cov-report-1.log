@@ -1,7 +1,0 @@
-action: cov-report, msg: getenv
-cwd: /Users/rubelw/projects/wills-github/terraform-compliance
-cmd: /Users/rubelw/projects/wills-github/terraform-compliance/.tox/cov-report/bin/python -m pip install coverage
-Collecting coverage
-  Using cached https://files.pythonhosted.org/packages/83/26/f9ed9e2b3b4dae24225513b90a51883dc3688486d1fa49af23ea4323b066/coverage-4.5.4-cp36-cp36m-macosx_10_13_x86_64.whl
-Installing collected packages: coverage
-Successfully installed coverage-4.5.4

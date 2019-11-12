@@ -1,9 +1,0 @@
-action: py36, msg: getenv
-cwd: /Users/rubelw/projects/wills-github/terraform-compliance/.tox
-cmd: /Users/rubelw/virtualenvs/terraformtesting/bin/python3 -m virtualenv --no-download --python /Users/rubelw/virtualenvs/terraformtesting/bin/python3 py36
-Already using interpreter /Users/rubelw/virtualenvs/terraformtesting/bin/python3
-Using real prefix '/usr/local/opt/pyenv/versions/3.6.0'
-New python executable in /Users/rubelw/projects/wills-github/terraform-compliance/.tox/py36/bin/python3
-Also creating executable in /Users/rubelw/projects/wills-github/terraform-compliance/.tox/py36/bin/python
-Installing setuptools, pip, wheel...
-done.
